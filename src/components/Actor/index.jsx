@@ -3,9 +3,12 @@ import './style.css';
 
 const Actor = ({ name, as }) => {
   return (
-    <div>
-      <span>{name}</span>
-      <span> jako {as}</span>
+    <div className="actor">
+      <div className="name">{name}</div>
+      <div className="role">
+        {' '}
+        jako <span className="character">{as}</span>
+      </div>
     </div>
   );
 };

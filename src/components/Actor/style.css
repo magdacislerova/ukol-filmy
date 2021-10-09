@@ -1,0 +1,14 @@
+.actor {
+  margin-right: 16px;
+  margin-bottom: 16px;
+  font-size: 12px;
+}
+
+.name,
+.character {
+  font-weight: bold;
+}
+
+.role {
+  color: rgb(88, 83, 83);
+}

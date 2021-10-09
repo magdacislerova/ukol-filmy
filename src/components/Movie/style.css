@@ -1,0 +1,71 @@
+h2,
+h4 {
+  color: rgb(9, 108, 141);
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+.movie {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 16px;
+  border: 1px dotted grey;
+  background-color: white;
+  width: 100%;
+  font-size: small;
+}
+
+@media only screen and (min-width: 768px) {
+  .movie {
+    width: 33%;
+  }
+}
+
+.poster {
+  width: 33%;
+}
+.details {
+  width: 66%;
+  padding-left: 16px;
+}
+
+.poster img {
+  max-width: 100%;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.cast {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cast-member {
+  width: 50%;
+}
+
+.rating {
+  background: rgb(9, 108, 141);
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 30px;
+  left: -16px;
+}
+
+.rating-value {
+  color: aliceblue;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: large;
+}

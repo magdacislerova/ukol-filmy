@@ -4,7 +4,7 @@ import Movie from '../Movie';
 
 const MovieList = ({ movies }) => {
   return (
-    <>
+    <div className="movie-list">
       {movies.map((movie) => (
         <Movie
           title={movie.title}
@@ -17,7 +17,7 @@ const MovieList = ({ movies }) => {
           key={movie.id}
         />
       ))}
-    </>
+    </div>
   );
 };
 
